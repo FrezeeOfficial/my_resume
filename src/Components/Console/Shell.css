@@ -7,7 +7,6 @@
 
 .prompt {
     margin-right: 10px;
-    margin-left: 20px;
 }
 
 .prompt > .user {
@@ -18,4 +17,40 @@
 
 .prompt > .val {
     color: #9b59b6;
+}
+
+#Shell {
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.writableline {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+[contenteditable="true"].input {
+    white-space: nowrap;
+    width:200px;
+    overflow: hidden;
+}
+[contenteditable="true"].input br {
+    display:none;
+
+}
+[contenteditable="true"].input * {
+    display:inline;
+    white-space:nowrap;
+}
+
+#Shell > p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+#past-command {
+    display: block;
+    color: #ffffffab;
 }

@@ -8,7 +8,7 @@ class SPA extends Component {
 
     render(){
         return (
-            <Background style={"Dracula"}>
+            <Background theme="Dracula">
                 <Console/>
             </Background>
         )
