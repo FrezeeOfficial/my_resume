@@ -1,0 +1,21 @@
+.input {
+    outline: none;
+    color: white;;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.prompt {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.prompt > .user {
+    color: #f1c40f;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.prompt > .val {
+    color: #9b59b6;
+}
