@@ -36,17 +36,25 @@ class Shell extends Component {
         document.getElementById("input").innerText = "";
     }
 
+    ClearHistory(){
+        this.setState({history: []});
+    }
+
+
     Key_Enter(event){
         var input = event.target.innerText.split(" ");
 
         this.addLine("root # " + input.toString().replace(",", " "));
-
            switch (input[0]) {
                 case "print":
-                break;
                     input.shift();
+                    this.addLine(">> " + input.toString().replace(",", " "));
+                break;
+               case "clear":
+                   this.ClearHistory();
+                   break;
                 default:
-                    console.log("non-captured command hit in console");
+                    this.addLine("[ERR]: Unknown Command");
                     break;
            }
 
