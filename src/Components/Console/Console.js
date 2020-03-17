@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import './Console.css';
 import Shell from './Shell';
-import ReactDOM from "react-dom";
+
 
 class Console extends Component {
 
