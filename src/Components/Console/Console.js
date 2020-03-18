@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import './Console.css';
-import Shell from './Shell';
+import Shell from './Shell/Shell';
 
 
 class Console extends Component {

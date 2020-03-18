@@ -6,10 +6,12 @@ import ShellHistory from "./ShellHistory";
 
 class Shell extends Component {
     constructor(props) {
-        super(props)
+        super(props);
 
         this.state = {
-            history: []
+            history: [],
+            builtword: [],
+            knowncommandheaders: [ "print", "clear" ]
         }
     }
 
@@ -29,8 +31,29 @@ class Shell extends Component {
         // takes command into Key enter
         if (event.key === "Enter") {
             this.Key_Enter(event);
+        } else {
+            this.Word_Suggestion(event);
         }
     };
+
+    Word_Suggestion(event){
+        if (event.key == " ") {
+            this.setState({builtword: []});
+        } else {
+
+            this.setState({builtword: [...this.state.builtword, event.key]});
+
+            var commands = this.state.knowncommandheaders;
+
+            for (var i = 0; i < commands.length; i++) {
+                if (commands[i].indexOf(this.state.builtword.toString().replace(/,/g, "")) >= 0) {
+                    document.getElementById("input").innerText = document.getElementById("input").innerText.substring(0, document.getElementById("input").innerText.length-(this.state.builtword.length + 1)) + commands[i];
+                }
+
+            }
+        }
+    }
+
 
     ClearEditable(){
         document.getElementById("input").innerText = "";
@@ -45,14 +68,14 @@ class Shell extends Component {
         var input = event.target.innerText.split(" ");
 
         this.addLine("root # " + input.toString().replace(",", " "));
-           switch (input[0]) {
+           switch (input[0].toLocaleLowerCase()) {
                 case "print":
                     input.shift();
                     this.addLine(">> " + input.toString().replace(",", " "));
                 break;
-               case "clear":
+                case "clear":
                    this.ClearHistory();
-                   break;
+                break;
                 default:
                     this.addLine("[ERR]: Unknown Command");
                     break;
