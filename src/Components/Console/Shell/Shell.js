@@ -32,27 +32,27 @@ class Shell extends Component {
         if (event.key === "Enter") {
             this.Key_Enter(event);
         } else {
-            this.Word_Suggestion(event);
+            // this.Word_Suggestion(event);
         }
     };
 
-    Word_Suggestion(event){
-        if (event.key == " ") {
-            this.setState({builtword: []});
-        } else {
-
-            this.setState({builtword: [...this.state.builtword, event.key]});
-
-            var commands = this.state.knowncommandheaders;
-
-            for (var i = 0; i < commands.length; i++) {
-                if (commands[i].indexOf(this.state.builtword.toString().replace(/,/g, "")) >= 0) {
-                    document.getElementById("input").innerText = document.getElementById("input").innerText.substring(0, document.getElementById("input").innerText.length-(this.state.builtword.length + 1)) + commands[i];
-                }
-
-            }
-        }
-    }
+    // Word_Suggestion(event){
+    //     if (event.key == " ") {
+    //         this.setState({builtword: []});
+    //     } else {
+    //
+    //         this.setState({builtword: [...this.state.builtword, event.key]});
+    //
+    //         var commands = this.state.knowncommandheaders;
+    //
+    //         for (var i = 0; i < commands.length; i++) {
+    //             if (commands[i].indexOf(this.state.builtword.toString().replace(/,/g, "")) >= 0) {
+    //                 document.getElementById("input").innerText = document.getElementById("input").innerText.substring(0, document.getElementById("input").innerText.length-(this.state.builtword.length + 1)) + commands[i];
+    //             }
+    //
+    //         }
+    //     }
+    // }
 
 
     ClearEditable(){

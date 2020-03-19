@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d69064a9-afa8-407f-8d57-452cf3a77084" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Background/Background.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Background/Background.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Background/Background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Console/Console.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Console/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Console/Console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Console/Shell.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Console/Shell/Shell.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Console/Shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Console/ShellHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Console/Shell/ShellHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SPA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SPA.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,18 +33,19 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="14" />
+          <entry key="css" value="16" />
           <entry key="gitignore_global" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="43" />
+          <entry key="js" value="52" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
@@ -48,10 +53,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
+          <entry key="CSS" value="16" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="43" />
+          <entry key="JavaScript" value="52" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -60,7 +65,7 @@
         <counts>
           <entry key="css" value="983" />
           <entry key="html" value="11" />
-          <entry key="js" value="6338" />
+          <entry key="js" value="7317" />
           <entry key="md" value="60" />
         </counts>
       </usages-collector>
@@ -68,7 +73,7 @@
         <counts>
           <entry key="CSS" value="983" />
           <entry key="HTML" value="11" />
-          <entry key="JavaScript" value="6338" />
+          <entry key="JavaScript" value="7317" />
           <entry key="Markdown" value="60" />
         </counts>
       </usages-collector>
@@ -87,20 +92,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Console/Console.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="496">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pages/SPA.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/Shell.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/GlobalConsole.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="415">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -132,17 +149,19 @@
         <option value="$PROJECT_DIR$/src/Components/Loader/Loader.js" />
         <option value="$PROJECT_DIR$/src/Components/Loader/Loader.css" />
         <option value="$PROJECT_DIR$/src/Components/Console/History.js" />
-        <option value="$PROJECT_DIR$/src/Pages/SPA.js" />
-        <option value="$PROJECT_DIR$/src/Components/Background/Background.js" />
         <option value="$PROJECT_DIR$/src/Components/Console/PModal.js" />
         <option value="$PROJECT_DIR$/src/Components/Console/ShellHistory.js" />
         <option value="$PROJECT_DIR$/src/Components/Console/Shell.css" />
-        <option value="$PROJECT_DIR$/src/Components/Console/Console.css" />
-        <option value="$PROJECT_DIR$/src/Components/Console/Console.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/Console/Shell.js" />
         <option value="$PROJECT_DIR$/src/Components/Console/Shell/ShellCommands.js" />
         <option value="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" />
+        <option value="$PROJECT_DIR$/src/Components/Console/Console.css" />
+        <option value="$PROJECT_DIR$/src/Components/Background/Background.js" />
+        <option value="$PROJECT_DIR$/src/Components/themes.js" />
+        <option value="$PROJECT_DIR$/src/Pages/SPA.js" />
+        <option value="$PROJECT_DIR$/src/Components/Console/Console.js" />
+        <option value="$PROJECT_DIR$/src/Components/GlobalConsole.js" />
       </list>
     </option>
   </component>
@@ -164,7 +183,7 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="207" />
+    <option name="x" value="513" />
     <option name="y" value="-8" />
     <option name="width" value="861" />
     <option name="height" value="707" />
@@ -199,6 +218,13 @@
               <item name="my_resume" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Background" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_resume" type="b2602c69:ProjectViewProjectNode" />
@@ -305,11 +331,12 @@
       <workItem from="1584461668523" duration="720000" />
       <workItem from="1584536178989" duration="728000" />
       <workItem from="1584547627937" duration="3212000" />
+      <workItem from="1584624240122" duration="3479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21479000" />
+    <option name="totallyTimeSpent" value="24958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,8 +349,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.5055292" />
       <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.24960506" />
       <window_info id="Favorites" order="2" sideWeight="0.5016216" side_tool="true" weight="0.24960506" />
       <window_info anchor="bottom" id="SOQL Query" order="0" sideWeight="0.4997367" weight="0.32972974" />
@@ -338,13 +366,36 @@
       <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.4997367" weight="0.32972974" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49921012" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49657714" visible="true" weight="0.22054054" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50342286" side_tool="true" visible="true" weight="0.22054054" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49605057" weight="0.22270742" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50394946" side_tool="true" weight="0.22054054" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.5058698" />
+      <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.24960506" />
+      <window_info id="Favorites" order="2" sideWeight="0.5016216" side_tool="true" weight="0.24960506" />
+      <window_info anchor="bottom" id="SOQL Query" order="0" sideWeight="0.4997367" weight="0.32972974" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="1" sideWeight="0.5992628" weight="0.32972974" />
+      <window_info anchor="bottom" id="Log Viewer" order="2" sideWeight="0.5992628" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.4997367" weight="0.32972974" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49921012" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49605057" visible="true" weight="0.22270742" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50394946" side_tool="true" weight="0.22054054" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -361,17 +412,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="68" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="80">
             <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="68" />
         </state>
       </provider>
     </entry>
@@ -383,13 +434,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/setupTests.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Background/Background.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Loader/Loader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -413,13 +457,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Console/History.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/Console/PModal.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Background/Background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -457,16 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/SPA.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/Shell.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -474,34 +501,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Console/Console.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/ShellCommands.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/Shell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="160">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/ShellCommands.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Console/Console.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="24" selection-end-column="9" />
+        <state>
+          <caret selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Background/Background.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Background/Background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/themes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/SPA.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Console/Console.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="496">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/Shell.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/GlobalConsole.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="415">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
