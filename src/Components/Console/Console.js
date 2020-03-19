@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
-import { ThemeProvider } from 'styled-components';
-
-import { GlobalStyles } from '../GlobalConsole';
 import Shell from './Shell/Shell';
-import { Dracula, Ruby } from '../themes';
 
 class Console extends Component {
 

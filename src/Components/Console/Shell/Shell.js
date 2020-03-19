@@ -16,7 +16,6 @@ class Shell extends Component {
     }
 
     addLine(message) {
-
         this.setState(
             { history: [...this.state.history, message] }
         )
@@ -25,6 +24,8 @@ class Shell extends Component {
     componentDidMount() {
         // listens for key presses
         ReactDOM.findDOMNode(this).addEventListener('keypress', this.KeyPress);
+
+      this.addLine('¯\\_(ツ)_/¯ ~ Welcome to the CLI. Type "help" for available commands');
     }
 
     KeyPress = event => {
@@ -71,11 +72,14 @@ class Shell extends Component {
            switch (input[0].toLocaleLowerCase()) {
                 case "print":
                     input.shift();
-                    this.addLine(">> " + input.toString().replace(",", " "));
+                    this.addLine("[SYS ~[USR-INPUT]]: " + input.toString().replace(",", " "));
                 break;
                 case "clear":
                    this.ClearHistory();
                 break;
+               case "help":
+                    this.addLine("[SYS]: Commands available: print, clear");
+                   break;
                 default:
                     this.addLine("[ERR]: Unknown Command");
                     break;

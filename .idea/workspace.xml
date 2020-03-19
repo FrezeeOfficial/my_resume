@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d69064a9-afa8-407f-8d57-452cf3a77084" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Background/Background.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Background/Background.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Background/Background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Console/Console.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Console/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Console/Console.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SPA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SPA.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +38,7 @@
           <entry key="css" value="16" />
           <entry key="gitignore_global" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="52" />
+          <entry key="js" value="53" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
@@ -56,7 +49,7 @@
           <entry key="CSS" value="16" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="52" />
+          <entry key="JavaScript" value="53" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -65,7 +58,7 @@
         <counts>
           <entry key="css" value="983" />
           <entry key="html" value="11" />
-          <entry key="js" value="7317" />
+          <entry key="js" value="7550" />
           <entry key="md" value="60" />
         </counts>
       </usages-collector>
@@ -73,7 +66,7 @@
         <counts>
           <entry key="CSS" value="983" />
           <entry key="HTML" value="11" />
-          <entry key="JavaScript" value="7317" />
+          <entry key="JavaScript" value="7550" />
           <entry key="Markdown" value="60" />
         </counts>
       </usages-collector>
@@ -89,35 +82,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Console/Console.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/Shell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pages/SPA.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="544">
+              <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/GlobalConsole.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -155,13 +127,13 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/Console/Shell.js" />
         <option value="$PROJECT_DIR$/src/Components/Console/Shell/ShellCommands.js" />
-        <option value="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" />
         <option value="$PROJECT_DIR$/src/Components/Console/Console.css" />
         <option value="$PROJECT_DIR$/src/Components/Background/Background.js" />
         <option value="$PROJECT_DIR$/src/Components/themes.js" />
         <option value="$PROJECT_DIR$/src/Pages/SPA.js" />
-        <option value="$PROJECT_DIR$/src/Components/Console/Console.js" />
         <option value="$PROJECT_DIR$/src/Components/GlobalConsole.js" />
+        <option value="$PROJECT_DIR$/src/Components/Console/Console.js" />
+        <option value="$PROJECT_DIR$/src/Components/Console/Shell/Shell.js" />
       </list>
     </option>
   </component>
@@ -183,7 +155,7 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="513" />
+    <option name="x" value="304" />
     <option name="y" value="-8" />
     <option name="width" value="861" />
     <option name="height" value="707" />
@@ -331,12 +303,12 @@
       <workItem from="1584461668523" duration="720000" />
       <workItem from="1584536178989" duration="728000" />
       <workItem from="1584547627937" duration="3212000" />
-      <workItem from="1584624240122" duration="3479000" />
+      <workItem from="1584624240122" duration="4695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24958000" />
+    <option name="totallyTimeSpent" value="26174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +323,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.5055292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.21011059" />
       <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.24960506" />
       <window_info id="Favorites" order="2" sideWeight="0.5016216" side_tool="true" weight="0.24960506" />
       <window_info anchor="bottom" id="SOQL Query" order="0" sideWeight="0.4997367" weight="0.32972974" />
@@ -502,16 +474,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/ShellCommands.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/Shell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Console/Console.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -540,6 +502,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GlobalConsole.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/SPA.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -552,18 +521,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Console/Console.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/GlobalConsole.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Console/Shell/Shell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="544">
+          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
