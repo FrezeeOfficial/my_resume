@@ -11,7 +11,7 @@ class Shell extends Component {
         this.state = {
             history: [],
             builtword: [],
-            knowncommandheaders: [ "print", "clear" ]
+            knowncommandheaders: [ "print", "clear", "about", "change_colour"]
         }
     }
 
@@ -37,23 +37,23 @@ class Shell extends Component {
         }
     };
 
-    // Word_Suggestion(event){
-    //     if (event.key == " ") {
-    //         this.setState({builtword: []});
-    //     } else {
-    //
-    //         this.setState({builtword: [...this.state.builtword, event.key]});
-    //
-    //         var commands = this.state.knowncommandheaders;
-    //
-    //         for (var i = 0; i < commands.length; i++) {
-    //             if (commands[i].indexOf(this.state.builtword.toString().replace(/,/g, "")) >= 0) {
-    //                 document.getElementById("input").innerText = document.getElementById("input").innerText.substring(0, document.getElementById("input").innerText.length-(this.state.builtword.length + 1)) + commands[i];
-    //             }
-    //
-    //         }
-    //     }
-    // }
+    Word_Suggestion(event){
+        if (event.key == " ") {
+            this.setState({builtword: []});
+        } else {
+    
+            this.setState({builtword: [...this.state.builtword, event.key]});
+    
+            var commands = this.state.knowncommandheaders;
+    
+            for (var i = 0; i < commands.length; i++) {
+                if (commands[i].indexOf(this.state.builtword.toString().replace(/,/g, "")) >= 0) {
+                    document.getElementById("input").innerText = document.getElementById("input").innerText.substring(0, document.getElementById("input").innerText.length-(this.state.builtword.length + 1)) + commands[i];
+                }
+    
+            }
+        }
+    }
 
 
     ClearEditable(){
@@ -78,8 +78,14 @@ class Shell extends Component {
                    this.ClearHistory();
                 break;
                case "help":
-                    this.addLine("[SYS]: Commands available: print, clear");
+                    this.addLine("[SYS]: Commands available: print, clear, about, change_colour");
                    break;
+                case "about":
+                    this.addLine("[SYS]: Hello, this console is ran using reactJs and nodeJs");
+                    break;
+                case "change_colour":
+                    this.props.changeColour();
+                    break;
                 default:
                     this.addLine("[ERR]: Unknown Command");
                     break;

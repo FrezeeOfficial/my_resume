@@ -14,11 +14,20 @@ class SPA extends Component {
         super(props);
 
         this.state = {
-            theme: Dracula
+            theme: Dracula,
+            colours: [Dracula, Ruby, JetWhite, SeaBlue]
         }
     }
 
 
+    getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+
+      
+    changeColour = () => {
+        this.setState({theme: this.state.colours[this.getRandomInt(3)]});
+    }
 
     render(){
         return (
@@ -27,7 +36,7 @@ class SPA extends Component {
             <GlobalStyles />
 
                 <Background>
-                    <Console/>
+                    <Console changeColour={this.changeColour}/>
                 </Background>
 
             </>

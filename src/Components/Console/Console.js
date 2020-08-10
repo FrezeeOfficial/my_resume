@@ -27,7 +27,7 @@ class Console extends Component {
                         <div className={"fullConsole"} />
                         <div className={"IdkConsole"} />
                     </div>
-                    <Shell/>
+                    <Shell changeColour={this.props.changeColour} />
                 </div>
 
 
