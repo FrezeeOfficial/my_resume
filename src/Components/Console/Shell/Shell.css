@@ -54,3 +54,19 @@
     display: block;
     color: #ffffffab;
 }
+
+.p_green {
+    color: green;
+}
+
+.p_default {
+    color: #bdc3c7;
+}
+
+.p_red {
+    color: #e74c3c;
+}
+
+.p_yellow {
+    color: #f1c40f;
+}

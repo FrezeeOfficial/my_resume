@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
     .Console-Modal {
+        transition-duration: 2s;
     height: 40%;
     width: 40%;
     display: table;
@@ -33,6 +34,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 .BackgroundTheme {
+    transition-duration: 2s;
     position: fixed;
     height: 100%;
     width: 100%;
